@@ -6,16 +6,15 @@ from CXRay.ml_logic.params import (LR,
                                    opt
                                    )
 
-from tensorflow.keras import model, Sequential, layers, regularizers, optimizers
+
 import tensorflow as tf
+from tensorflow.keras import model, Sequential, layers, regularizers, optimizers
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.applications.resnet50 import preprocess_input
 import numpy as np
 from typing import Tuple
 
 # Initialize pretrained model
-
-
 
 def get_pretrained_model():
     pretrained_model = tf.keras.applications.resnet50.ResNet50(
