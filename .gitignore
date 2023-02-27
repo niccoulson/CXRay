@@ -1,3 +1,7 @@
+# Configuration
+.env
+
+#
 *.egg-info
 .coverage
 .ipynb_checkpoints
@@ -5,4 +9,3 @@
 raw_data/
 *.csv
 **/__pycache__/
-.env
