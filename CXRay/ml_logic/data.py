@@ -16,3 +16,5 @@ elif os.environ['DATA_SOURCE'] == 'cloud':
 
 else: 
     raise ValueError(f'Value in .env {os.environ["DATA_SOURCE"]} is unknown')
+
+
